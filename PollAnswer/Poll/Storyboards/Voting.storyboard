@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6SH-Kl-yUW">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Voting-->
+        <scene sceneID="faS-Fc-sRX">
+            <objects>
+                <viewController id="6SH-Kl-yUW" customClass="VotingViewController" customModule="Poll" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OA9-Nd-6Ka">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What is your favorite color?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DBp-Xr-hMb">
+                                <rect key="frame" x="70" y="60" width="235" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="rNH-jP-fOC">
+                                <rect key="frame" x="0.0" y="135" width="375" height="110"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ec9-4u-cxl">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="favorite color" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="heX-Hx-czV">
+                                        <rect key="frame" x="0.0" y="40" width="375" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qCb-KX-Rhr">
+                                        <rect key="frame" x="0.0" y="80" width="375" height="30"/>
+                                        <state key="normal" title="Save"/>
+                                        <connections>
+                                            <action selector="save:" destination="6SH-Kl-yUW" eventType="touchUpInside" id="qo6-bJ-r9J"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="rNH-jP-fOC" firstAttribute="top" secondItem="DBp-Xr-hMb" secondAttribute="bottom" constant="51" id="FEh-OC-kCJ"/>
+                            <constraint firstItem="rNH-jP-fOC" firstAttribute="leading" secondItem="cmb-RL-vLd" secondAttribute="leading" id="SKM-C7-JCH"/>
+                            <constraint firstItem="cmb-RL-vLd" firstAttribute="trailing" secondItem="rNH-jP-fOC" secondAttribute="trailing" id="dil-li-H4I"/>
+                            <constraint firstItem="DBp-Xr-hMb" firstAttribute="top" secondItem="cmb-RL-vLd" secondAttribute="top" constant="40" id="elA-GR-IS2"/>
+                            <constraint firstItem="rNH-jP-fOC" firstAttribute="centerX" secondItem="OA9-Nd-6Ka" secondAttribute="centerX" id="npc-j0-HPu"/>
+                            <constraint firstItem="DBp-Xr-hMb" firstAttribute="centerX" secondItem="rNH-jP-fOC" secondAttribute="centerX" id="swY-gz-8mY"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="cmb-RL-vLd"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Voting" id="CDA-bT-ndy"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="colorTextfield" destination="heX-Hx-czV" id="A3r-Jz-aG6"/>
+                        <outlet property="nameTextfield" destination="ec9-4u-cxl" id="DGQ-i9-aQu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iW4-qq-hnH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="71" y="157"/>
+        </scene>
+    </scenes>
+</document>
