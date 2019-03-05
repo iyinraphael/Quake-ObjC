@@ -10,4 +10,15 @@
 
 @implementation LSIOSXVersion
 
+- (instancetype)initWithCodename:(NSString *)codename releaseDate:(NSString *)releaseDate
+{
+    self = [super self];
+    if (self)
+    {
+        self.codename = codename;
+        self.releaseDate = releaseDate;
+    }
+    return self;
+}
+
 @end

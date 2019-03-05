@@ -8,24 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		EBFEFB6A222EC0BD0072EDF1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFEFB69222EC0BD0072EDF1 /* AppDelegate.m */; };
-		EBFEFB6D222EC0BD0072EDF1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFEFB6C222EC0BD0072EDF1 /* ViewController.m */; };
 		EBFEFB70222EC0BD0072EDF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBFEFB6E222EC0BD0072EDF1 /* Main.storyboard */; };
 		EBFEFB72222EC0C10072EDF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBFEFB71222EC0C10072EDF1 /* Assets.xcassets */; };
 		EBFEFB75222EC0C10072EDF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBFEFB73222EC0C10072EDF1 /* LaunchScreen.storyboard */; };
 		EBFEFB78222EC0C10072EDF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFEFB77222EC0C10072EDF1 /* main.m */; };
+		EBFEFB80222EC24D0072EDF1 /* LSIVersionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFEFB7F222EC24D0072EDF1 /* LSIVersionTableViewController.m */; };
+		EBFEFB83222EC7400072EDF1 /* LSIOSXVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFEFB82222EC7400072EDF1 /* LSIOSXVersion.m */; };
+		EBFEFB86222ECC590072EDF1 /* LSIVersionController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFEFB85222ECC590072EDF1 /* LSIVersionController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EBFEFB65222EC0BD0072EDF1 /* OSXVersion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OSXVersion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBFEFB68222EC0BD0072EDF1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EBFEFB69222EC0BD0072EDF1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EBFEFB6B222EC0BD0072EDF1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EBFEFB6C222EC0BD0072EDF1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EBFEFB6F222EC0BD0072EDF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EBFEFB71222EC0C10072EDF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBFEFB74222EC0C10072EDF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EBFEFB76222EC0C10072EDF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBFEFB77222EC0C10072EDF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EBFEFB7E222EC24D0072EDF1 /* LSIVersionTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSIVersionTableViewController.h; sourceTree = "<group>"; };
+		EBFEFB7F222EC24D0072EDF1 /* LSIVersionTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSIVersionTableViewController.m; sourceTree = "<group>"; };
+		EBFEFB81222EC7400072EDF1 /* LSIOSXVersion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSIOSXVersion.h; sourceTree = "<group>"; };
+		EBFEFB82222EC7400072EDF1 /* LSIOSXVersion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSIOSXVersion.m; sourceTree = "<group>"; };
+		EBFEFB84222ECC590072EDF1 /* LSIVersionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSIVersionController.h; sourceTree = "<group>"; };
+		EBFEFB85222ECC590072EDF1 /* LSIVersionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSIVersionController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,13 +66,17 @@
 			children = (
 				EBFEFB68222EC0BD0072EDF1 /* AppDelegate.h */,
 				EBFEFB69222EC0BD0072EDF1 /* AppDelegate.m */,
-				EBFEFB6B222EC0BD0072EDF1 /* ViewController.h */,
-				EBFEFB6C222EC0BD0072EDF1 /* ViewController.m */,
 				EBFEFB6E222EC0BD0072EDF1 /* Main.storyboard */,
 				EBFEFB71222EC0C10072EDF1 /* Assets.xcassets */,
 				EBFEFB73222EC0C10072EDF1 /* LaunchScreen.storyboard */,
 				EBFEFB76222EC0C10072EDF1 /* Info.plist */,
 				EBFEFB77222EC0C10072EDF1 /* main.m */,
+				EBFEFB7E222EC24D0072EDF1 /* LSIVersionTableViewController.h */,
+				EBFEFB7F222EC24D0072EDF1 /* LSIVersionTableViewController.m */,
+				EBFEFB81222EC7400072EDF1 /* LSIOSXVersion.h */,
+				EBFEFB82222EC7400072EDF1 /* LSIOSXVersion.m */,
+				EBFEFB84222ECC590072EDF1 /* LSIVersionController.h */,
+				EBFEFB85222ECC590072EDF1 /* LSIVersionController.m */,
 			);
 			path = OSXVersion;
 			sourceTree = "<group>";
@@ -141,9 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBFEFB6D222EC0BD0072EDF1 /* ViewController.m in Sources */,
+				EBFEFB86222ECC590072EDF1 /* LSIVersionController.m in Sources */,
 				EBFEFB78222EC0C10072EDF1 /* main.m in Sources */,
 				EBFEFB6A222EC0BD0072EDF1 /* AppDelegate.m in Sources */,
+				EBFEFB83222EC7400072EDF1 /* LSIOSXVersion.m in Sources */,
+				EBFEFB80222EC24D0072EDF1 /* LSIVersionTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

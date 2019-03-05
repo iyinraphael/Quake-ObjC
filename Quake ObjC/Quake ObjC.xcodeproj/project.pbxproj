@@ -13,6 +13,7 @@
 		EBFEFB9D222EE6B80072EDF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBFEFB9C222EE6B80072EDF1 /* Assets.xcassets */; };
 		EBFEFBA0222EE6B80072EDF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBFEFB9E222EE6B80072EDF1 /* LaunchScreen.storyboard */; };
 		EBFEFBA3222EE6B80072EDF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFEFBA2222EE6B80072EDF1 /* main.m */; };
+		EBFEFBAB222EE7440072EDF1 /* LSIQuake.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFEFBAA222EE7440072EDF1 /* LSIQuake.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		EBFEFB9F222EE6B80072EDF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EBFEFBA1222EE6B80072EDF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBFEFBA2222EE6B80072EDF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EBFEFBA9222EE7440072EDF1 /* LSIQuake.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSIQuake.h; sourceTree = "<group>"; };
+		EBFEFBAA222EE7440072EDF1 /* LSIQuake.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSIQuake.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				EBFEFB9E222EE6B80072EDF1 /* LaunchScreen.storyboard */,
 				EBFEFBA1222EE6B80072EDF1 /* Info.plist */,
 				EBFEFBA2222EE6B80072EDF1 /* main.m */,
+				EBFEFBA9222EE7440072EDF1 /* LSIQuake.h */,
+				EBFEFBAA222EE7440072EDF1 /* LSIQuake.m */,
 			);
 			path = "Quake ObjC";
 			sourceTree = "<group>";
@@ -141,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBFEFBAB222EE7440072EDF1 /* LSIQuake.m in Sources */,
 				EBFEFB98222EE6B60072EDF1 /* ViewController.m in Sources */,
 				EBFEFBA3222EE6B80072EDF1 /* main.m in Sources */,
 				EBFEFB95222EE6B60072EDF1 /* AppDelegate.m in Sources */,

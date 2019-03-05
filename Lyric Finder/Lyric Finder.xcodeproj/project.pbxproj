@@ -8,24 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		EB04C99B22289298004A5718 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB04C99A22289298004A5718 /* AppDelegate.m */; };
-		EB04C99E22289298004A5718 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB04C99D22289298004A5718 /* ViewController.m */; };
 		EB04C9A122289298004A5718 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB04C99F22289298004A5718 /* Main.storyboard */; };
 		EB04C9A32228929B004A5718 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB04C9A22228929B004A5718 /* Assets.xcassets */; };
 		EB04C9A62228929B004A5718 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB04C9A42228929B004A5718 /* LaunchScreen.storyboard */; };
 		EB04C9A92228929B004A5718 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB04C9A82228929B004A5718 /* main.m */; };
+		EB04C9B62228A26D004A5718 /* LRFTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB04C9B52228A26D004A5718 /* LRFTableViewController.m */; };
+		EB04C9B92228A293004A5718 /* LRFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB04C9B82228A293004A5718 /* LRFViewController.m */; };
+		EB04C9BC2228ADED004A5718 /* Lyric.m in Sources */ = {isa = PBXBuildFile; fileRef = EB04C9BB2228ADED004A5718 /* Lyric.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EB04C99622289298004A5718 /* Lyric Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lyric Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB04C99922289298004A5718 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EB04C99A22289298004A5718 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EB04C99C22289298004A5718 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EB04C99D22289298004A5718 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EB04C9A022289298004A5718 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB04C9A22228929B004A5718 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB04C9A52228929B004A5718 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB04C9A72228929B004A5718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB04C9A82228929B004A5718 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB04C9B42228A26D004A5718 /* LRFTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRFTableViewController.h; sourceTree = "<group>"; };
+		EB04C9B52228A26D004A5718 /* LRFTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRFTableViewController.m; sourceTree = "<group>"; };
+		EB04C9B72228A293004A5718 /* LRFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRFViewController.h; sourceTree = "<group>"; };
+		EB04C9B82228A293004A5718 /* LRFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRFViewController.m; sourceTree = "<group>"; };
+		EB04C9BA2228ADED004A5718 /* Lyric.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lyric.h; sourceTree = "<group>"; };
+		EB04C9BB2228ADED004A5718 /* Lyric.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lyric.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +64,53 @@
 		EB04C99822289298004A5718 /* Lyric Finder */ = {
 			isa = PBXGroup;
 			children = (
-				EB04C99922289298004A5718 /* AppDelegate.h */,
-				EB04C99A22289298004A5718 /* AppDelegate.m */,
-				EB04C99C22289298004A5718 /* ViewController.h */,
-				EB04C99D22289298004A5718 /* ViewController.m */,
-				EB04C99F22289298004A5718 /* Main.storyboard */,
+				EB04C9B32228971C004A5718 /* Resources */,
+				EB04C9B222289700004A5718 /* View Controller */,
+				EB04C9B0222896DE004A5718 /* Model COntroller */,
+				EB04C9AF222896D2004A5718 /* Model */,
 				EB04C9A22228929B004A5718 /* Assets.xcassets */,
-				EB04C9A42228929B004A5718 /* LaunchScreen.storyboard */,
 				EB04C9A72228929B004A5718 /* Info.plist */,
-				EB04C9A82228929B004A5718 /* main.m */,
 			);
 			path = "Lyric Finder";
+			sourceTree = "<group>";
+		};
+		EB04C9AF222896D2004A5718 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EB04C9BA2228ADED004A5718 /* Lyric.h */,
+				EB04C9BB2228ADED004A5718 /* Lyric.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EB04C9B0222896DE004A5718 /* Model COntroller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Model COntroller";
+			sourceTree = "<group>";
+		};
+		EB04C9B222289700004A5718 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EB04C9B42228A26D004A5718 /* LRFTableViewController.h */,
+				EB04C9B52228A26D004A5718 /* LRFTableViewController.m */,
+				EB04C9B72228A293004A5718 /* LRFViewController.h */,
+				EB04C9B82228A293004A5718 /* LRFViewController.m */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		EB04C9B32228971C004A5718 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EB04C99922289298004A5718 /* AppDelegate.h */,
+				EB04C99A22289298004A5718 /* AppDelegate.m */,
+				EB04C9A42228929B004A5718 /* LaunchScreen.storyboard */,
+				EB04C9A82228929B004A5718 /* main.m */,
+				EB04C99F22289298004A5718 /* Main.storyboard */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +183,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB04C99E22289298004A5718 /* ViewController.m in Sources */,
 				EB04C9A92228929B004A5718 /* main.m in Sources */,
+				EB04C9B92228A293004A5718 /* LRFViewController.m in Sources */,
 				EB04C99B22289298004A5718 /* AppDelegate.m in Sources */,
+				EB04C9BC2228ADED004A5718 /* Lyric.m in Sources */,
+				EB04C9B62228A26D004A5718 /* LRFTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

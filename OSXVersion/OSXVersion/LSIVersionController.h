@@ -12,6 +12,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface LSIVersionController : NSObject
 
+- (void)fetchVersionsWithCompletionBlock:(void (^)(NSError *error))completionBlock;
+@property NSArray *versions;
+
+
 @end
 
 NS_ASSUME_NONNULL_END
