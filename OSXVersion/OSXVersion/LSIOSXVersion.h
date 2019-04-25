@@ -16,6 +16,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property NSString *releaseDate;
 
 - (instancetype) initWithCodename: (NSString *)codename releaseDate: (NSString *)releaseDate;
+- (instancetype)initWithDictionary:(NSDictionary *)dictionary;
+
 
 
 @end

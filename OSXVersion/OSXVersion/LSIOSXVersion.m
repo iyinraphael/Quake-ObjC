@@ -21,4 +21,14 @@
     return self;
 }
 
+- (instancetype)initWithDictionary:(NSDictionary *)dictionary
+{
+    NSString *codename = dictionary[@"codename"];
+    NSString *relaseDate = dictionary[@"releaseDate"];
+    if (codename == nil || relaseDate == nil) {
+        return nil;
+    }
+    return [self initWithCodename:codename releaseDate:relaseDate]; 
+}
+
 @end

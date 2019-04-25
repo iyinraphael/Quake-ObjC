@@ -14,6 +14,8 @@
 		EBFEFBA0222EE6B80072EDF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBFEFB9E222EE6B80072EDF1 /* LaunchScreen.storyboard */; };
 		EBFEFBA3222EE6B80072EDF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFEFBA2222EE6B80072EDF1 /* main.m */; };
 		EBFEFBAB222EE7440072EDF1 /* LSIQuake.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFEFBAA222EE7440072EDF1 /* LSIQuake.m */; };
+		EBFEFBAE222EF1400072EDF1 /* LSIQuakeFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFEFBAD222EF1400072EDF1 /* LSIQuakeFetcher.m */; };
+		EBFEFBB1222EF1AD0072EDF1 /* LSICoordinateRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFEFBB0222EF1AD0072EDF1 /* LSICoordinateRegion.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		EBFEFBA2222EE6B80072EDF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EBFEFBA9222EE7440072EDF1 /* LSIQuake.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSIQuake.h; sourceTree = "<group>"; };
 		EBFEFBAA222EE7440072EDF1 /* LSIQuake.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSIQuake.m; sourceTree = "<group>"; };
+		EBFEFBAC222EF1400072EDF1 /* LSIQuakeFetcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSIQuakeFetcher.h; sourceTree = "<group>"; };
+		EBFEFBAD222EF1400072EDF1 /* LSIQuakeFetcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSIQuakeFetcher.m; sourceTree = "<group>"; };
+		EBFEFBAF222EF1AD0072EDF1 /* LSICoordinateRegion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSICoordinateRegion.h; sourceTree = "<group>"; };
+		EBFEFBB0222EF1AD0072EDF1 /* LSICoordinateRegion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSICoordinateRegion.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +78,10 @@
 				EBFEFBA2222EE6B80072EDF1 /* main.m */,
 				EBFEFBA9222EE7440072EDF1 /* LSIQuake.h */,
 				EBFEFBAA222EE7440072EDF1 /* LSIQuake.m */,
+				EBFEFBAC222EF1400072EDF1 /* LSIQuakeFetcher.h */,
+				EBFEFBAD222EF1400072EDF1 /* LSIQuakeFetcher.m */,
+				EBFEFBAF222EF1AD0072EDF1 /* LSICoordinateRegion.h */,
+				EBFEFBB0222EF1AD0072EDF1 /* LSICoordinateRegion.m */,
 			);
 			path = "Quake ObjC";
 			sourceTree = "<group>";
@@ -146,9 +156,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBFEFBB1222EF1AD0072EDF1 /* LSICoordinateRegion.m in Sources */,
 				EBFEFBAB222EE7440072EDF1 /* LSIQuake.m in Sources */,
 				EBFEFB98222EE6B60072EDF1 /* ViewController.m in Sources */,
 				EBFEFBA3222EE6B80072EDF1 /* main.m in Sources */,
+				EBFEFBAE222EF1400072EDF1 /* LSIQuakeFetcher.m in Sources */,
 				EBFEFB95222EE6B60072EDF1 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
